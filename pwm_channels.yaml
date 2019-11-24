@@ -1,0 +1,976 @@
+301:
+  TIM1:
+    CH1:
+      PC0: x
+      PA8: x
+    CH1N:
+      PC2: x
+      PA7: x
+      PB13: x
+      PA11: x
+    CH2:
+      PC1: x
+      PA9: x
+    CH2N:
+      PB0: x
+      PB14: x
+      PA12: x
+    CH3:
+      PC2: x
+      PA10: x
+    CH3N:
+      PF0: x
+      PB1: x
+      PB15: x
+    CH4:
+      PC3: x
+      PA11: x
+  TIM2:
+    CH1:
+      PA0: x
+      PA5: x
+      PA15: x
+    CH2:
+      PA1: x
+      PB3: x
+    CH3:
+      PA2: x
+      PB10: x
+      PA9: x
+    CH4:
+      PA3: x
+      PB11: x
+      PA10: x
+  TIM15:
+    CH1:
+      PA2: x
+      PB14: x
+    CH1N:
+      PA1: x
+      PB15: x
+    CH2:
+      PA3: x
+      PB15: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB4: x
+      PB8: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+    CH1N:
+      PB7: x
+      PB7: x
+318:
+  TIM1:
+    CH1:
+      PA8: x
+    CH1N:
+      PC13: x
+      PA7: x
+      PB13: x
+      PA11: x
+    CH2:
+      PA9: x
+    CH2N:
+      PB0: x
+      PB14: x
+      PA12: x
+    CH3:
+      PA10: x
+    CH3N:
+      PF0: x
+      PB1: x
+      PB15: x
+  TIM2:
+    CH1:
+      PA0: x
+      PA5: x
+      PA15: x
+    CH2:
+      PA1: x
+      PB3: x
+    CH3:
+      PA2: x
+      PB10: x
+      PA9: x
+    CH4:
+      PA3: x
+      PB11: x
+      PA10: x
+  TIM15:
+    CH1:
+      PA2: x
+      PB14: x
+    CH1N:
+      PA1: x
+      PB15: x
+    CH2:
+      PA3: x
+      PB15: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB4: x
+      PB8: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+      PE1: x
+    CH1N:
+      PB7: x
+302cb:
+  TIM1:
+    CH1:
+      PA8: x
+      PE9: x
+      PA8: x
+    CH1N:
+      PA7: x
+      PE8: x
+      PB13: x
+      PA11: x
+    CH2:
+      PE11: x
+      PA9: x
+    CH2N:
+      PB0: x
+      PE10: x
+      PA12: x
+    CH3:
+      PE13: x
+      PA10: x
+    CH3N:
+      PF0: x
+      PB1: x
+      PE12: x
+      PB15: x
+    CH4:
+      PE14: x
+      PA11: x
+  TIM2:
+    CH1:
+      PA0: x
+      PA5: x
+      PA15: x
+      PD3: x
+    CH2:
+      PA1: x
+      PD4: x
+      PD3: x
+    CH3:
+      PA2: x
+      PB10: x
+      PA9: x
+      PD7: x
+    CH4:
+      PA3: x
+      PB11: x
+      PA10: x
+      PD6: x
+  TIM3:
+    CH1:
+      PE2: x
+      PA6: x
+      PC6: x
+      PB4: x
+    CH2:
+      PE3: x
+      PA4: x
+      PA7: x
+      PB5: x
+    CH3:
+      PE4: x
+      PB0: x
+      PC8: x
+    CH4:
+      PE5: x
+      PB1: x
+      PC9: x
+      PB7: x
+  TIM4:
+    CH1:
+      PD12: x
+      PA11: x
+      PB6: x
+    CH2:
+      PD13: x
+      PA12: x
+      PB7: x
+    CH3:
+      PD14: x
+      PA13: x
+      PB8: x
+    CH4:
+      PD15: x
+      PF6: x
+      PB9: x
+  TIM15:
+    CH1:
+      PF9: x
+      PA2: x
+      PB14: x
+    CH1N:
+      PA1: x
+      PB15: x
+    CH2:
+      PF10: x
+      PA3: x
+      PB15: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB4: x
+      PB8: x
+      PE0: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+      PE1: x
+    CH1N:
+      PB7: x
+303:
+  TIM1:
+    CH1:
+      PE9: x
+      PA8: x
+    CH1N:
+      PC13: x
+      PA7: x
+      PE8: x
+      PE13: x
+      PA11: x
+    CH2:
+      PE11: x
+      PA9: x
+    CH2N:
+      PB0: x
+      PE10: x
+      PE14: x
+      PA12: x
+    CH3:
+      PE13: x
+      PA10: x
+    CH3N:
+      PF0: x
+      PB1: x
+      PE12: x
+      PE15: x
+    CH4:
+      PE14: x
+      PA11: x
+  TIM2:
+    CH1:
+      PA0: x
+    CH2:
+      PA1: x
+    CH3:
+      PA2: x
+    CH4:
+      PA3: x
+    CH1:
+      PA5: x
+    CH3:
+      PB10: x
+    CH4:
+      PB11: x
+    CH3:
+      PA9: x
+    CH4:
+      PA10: x
+    CH1:
+      PA15: x
+    CH1:
+      PD3: x
+    CH4:
+      PD6: x
+    CH3:
+      PD7: x
+    CH2:
+      PB3: x
+  TIM3:
+    CH1:
+      PE2: x
+      PA6: x
+      PC6: x
+      PB4: x
+    CH2:
+      PE3: x
+      PA4: x
+      PA7: x
+      PC7: x
+      PB5: x
+    CH3:
+      PE4: x
+      PB0: x
+      PC8: x
+    CH4:
+      PE5: x
+      PC9: x
+  TIM4:
+    CH1:
+      PD12: x
+      PA11: x
+      PB6: x
+    CH2:
+      PA12: x
+      PB7: x
+    CH3:
+      PA13: x
+      PB8: x
+    CH4:
+      PF6: x
+      PB9: x
+  TIM8:
+    CH1:
+      PA15: x
+      PB6: x
+      PC6: x
+    CH1N:
+      PA7: x
+      PC10: x
+      PB3: x
+    CH2:
+      PC7: x
+      PA14: x
+      PB8: x
+    CH2N:
+      PB0: x
+      PC11: x
+      PB4: x
+    CH3:
+      PC8: x
+      PB9: x
+    CH3N:
+      PB1: x
+      PC12: x
+      PB5: x
+    CH4:
+      PC9: x
+      PD1: x
+  TIM15:
+    CH1:
+      PF9: x
+      PA2: x
+      PB14: x
+    CH1N:
+      PA1: x
+      PB15: x
+    CH2:
+      PF10: x
+      PA3: x
+      PB15: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB4: x
+      PB8: x
+      PE0: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+      PE1: x
+    CH1N:
+      PB7: x
+373:
+  TIM3:
+    CH1:
+      PA6: x
+      PC6: x
+      PB4: x
+    CH2:
+      PA4: x
+      PA7: x
+      PC7: x
+      PB5: x
+    CH3:
+      PB0: x
+      PB6: x
+    CH4:
+      PB1: x
+      PB7: x
+  TIM4:
+    CH1:
+      PD12: x
+      PA11: x
+      PB6: x
+    CH2:
+      PD13: x
+      PA12: x
+      PB7: x
+    CH3:
+      PD14: x
+      PA13: x
+      PB8: x
+    CH4:
+      PD15: x
+      PF6: x
+      PB9: x
+  TIM12:
+    CH1:
+      PA4: x
+      PB14: x
+      PA14: x
+    CH2:
+      PA5: x
+      PB15: x
+      PA15: x
+  TIM13:
+    CH1:
+      PA6: x
+      PC4: x
+      PA9: x
+      PB3: x
+  TIM14:
+    CH1:
+      PA5: x
+      PA7: x
+      PA10: x
+  TIM15:
+    CH1:
+      PA2: x
+      PB14: x
+      PB6: x
+    CH1N:
+      PA1: x
+      PB15: x
+      PB4: x
+    CH2:
+      PA3: x
+      PB15: x
+      PB7: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB4: x
+      PB8: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+    CH1N:
+      PB7: x
+  TIM19:
+    CH1:
+      PA0: x
+      PB6: x
+    CH2:
+      PA1: x
+      PB7: x
+    CH3:
+      PA2: x
+      PB8: x
+    CH4:
+      PA3: x
+      PB9: x
+378:
+  TIM3:
+    CH1:
+      PA6: x
+      PB4: x
+    CH2:
+      PA4: x
+      PA7: x
+      PB5: x
+    CH3:
+      PB0: x
+      PB6: x
+    CH4:
+      PB1: x
+      PB7: x
+  TIM4:
+    CH1:
+      PD12: x
+      PA11: x
+      PB6: x
+    CH2:
+      PD13: x
+      PA12: x
+      PB7: x
+    CH3:
+      PD14: x
+      PA13: x
+      PB8: x
+    CH4:
+      PD15: x
+      PF6: x
+      PB9: x
+  TIM12:
+    CH1:
+      PA4: x
+      PB14: x
+      PA14: x
+    CH2:
+      PA5: x
+      PB15: x
+      PA15: x
+  TIM13:
+    CH1:
+      PA6: x
+      PC4: x
+      PA9: x
+      PB3: x
+  TIM14:
+    CH1:
+      PA5: x
+      PA7: x
+      PA10: x
+  TIM15:
+    CH1:
+      PA2: x
+      PB14: x
+      PB6: x
+    CH1N:
+      PA1: x
+      PB15: x
+      PB4: x
+    CH2:
+      PA3: x
+      PB15: x
+      PB7: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB8: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+    CH1N:
+      PB7: x
+  TIM19:
+    CH1:
+      PA0: x
+      PB6: x
+    CH2:
+      PA1: x
+      PB7: x
+    CH3:
+      PB8: x
+    CH4:
+      PA3: x
+      PB9: x
+334:
+  TIM1:
+    CH1:
+      PA8: x
+    CH1N:
+      PA7: x
+      PA11: x
+      PB13: x
+    CH2:
+      PA9: x
+    CH2N:
+      PB0: x
+      PB14: x
+      PA12: x
+    CH3:
+      PA10: x
+    CH3N:
+      PB1: x
+      PB15: x
+    CH4:
+      PC3: x
+      PA11: x
+  TIM3:
+    CH1:
+      PA6: x
+      PC6: x
+      PB4: x
+    CH2:
+      PA4: x
+      PA7: x
+      PC7: x
+      PB5: x
+    CH3:
+      PB0: x
+      PC8: x
+    CH4:
+      PB1: x
+      PC9: x
+      PB7: x
+  TIM15:
+    CH1:
+      PA2: x
+      PB14: x
+    CH1N:
+      PA1: x
+      PB15: x
+    CH2:
+      PA3: x
+      PB15: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB4: x
+      PB8: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+    CH1N:
+      PB7: x
+328:
+  TIM1:
+    CH1:
+      PA8: x
+    CH1N:
+      PA7: x
+      PA11: x
+      PB13: x
+    CH2:
+      PA9: x
+    CH2N:
+      PB0: x
+      PB14: x
+      PA12: x
+    CH3:
+      PA10: x
+    CH3N:
+      PB1: x
+      PB15: x
+    CH4:
+      PA11: x
+  TIM3:
+    CH1:
+      PA6: x
+      PB4: x
+    CH2:
+      PA4: x
+      PA7: x
+      PB5: x
+    CH3:
+      PB0: x
+    CH4:
+      PB1: x
+      PB7: x
+  TIM15:
+    CH1:
+      PA2: x
+      PB14: x
+    CH1N:
+      PA1: x
+      PB15: x
+    CH2:
+      PA3: x
+      PB15: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB4: x
+      PB8: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+    CH1N:
+      PB7: x
+358:
+  TIM1:
+    CH1:
+      PE9: x
+      PA8: x
+    CH1N:
+      PA7: x
+      PE8: x
+      PB13: x
+      PA11: x
+    CH2:
+      PE11: x
+      PA9: x
+    CH2N:
+      PB0: x
+      PE10: x
+      PB14: x
+      PA12: x
+    CH3:
+      PE13: x
+      PA10: x
+    CH3N:
+      PF0: x
+      PB1: x
+      PE12: x
+      PB15: x
+    CH4:
+      PE14: x
+      PA11: x
+  TIM3:
+    CH1:
+      PE2: x
+      PA6: x
+      PC6: x
+      PB4: x
+    CH2:
+      PE3: x
+      PA4: x
+      PA7: x
+      PC7: x
+      PB5: x
+    CH3:
+      PE4: x
+      PB0: x
+      PC8: x
+    CH4:
+      PE5: x
+      PB1: x
+      PC9: x
+      PB7: x
+  TIM4:
+    CH1:
+      PD12: x
+      PA11: x
+      PB6: x
+    CH2:
+      PD13: x
+      PA12: x
+      PB7: x
+    CH3:
+      PD14: x
+      PA13: x
+      PB8: x
+    CH4:
+      PD15: x
+      PF6: x
+      PB9: x
+  TIM8:
+    CH1:
+      PA15: x
+      PB6: x
+      PC6: x
+    CH1N:
+      PA7: x
+      PC10: x
+      PB3: x
+    CH2:
+      PC7: x
+      PA14: x
+      PB8: x
+    CH2N:
+      PB0: x
+      PC11: x
+      PB4: x
+    CH3:
+      PC8: x
+      PB9: x
+    CH3N:
+      PB1: x
+      PC12: x
+      PB5: x
+    CH4:
+      PC9: x
+      PD1: x
+  TIM15:
+    CH1:
+      PF9: x
+      PA2: x
+      PB14: x
+    CH1N:
+      PA1: x
+      PB15: x
+    CH2:
+      PF10: x
+      PA3: x
+      PB15: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB4: x
+      PB8: x
+      PE0: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+      PE1: x
+    CH1N:
+      PB7: x
+398:
+  TIM1:
+    CH1:
+      PE9: x
+      PA8: x
+    CH1N:
+      PA7: x
+      PE8: x
+      PB13: x
+      PA11: x
+    CH2:
+      PE11: x
+      PA9: x
+    CH2N:
+      PB0: x
+      PE10: x
+      PB14: x
+      PA12: x
+    CH3:
+      PC2: x
+      PE13: x
+      PA10: x
+    CH3N:
+      PB1: x
+      PE12: x
+      PB15: x
+    CH4:
+      PC3: x
+      PE14: x
+      PA11: x
+  TIM3:
+    CH1:
+      PE2: x
+      PA6: x
+      PC6: x
+      PB4: x
+    CH2:
+      PE3: x
+      PA4: x
+      PA7: x
+      PC7: x
+      PB5: x
+    CH3:
+      PE4: x
+      PB0: x
+      PC8: x
+    CH4:
+      PE5: x
+      PB1: x
+      PC9: x
+      PB7: x
+  TIM4:
+    CH1:
+      PD12: x
+      PA11: x
+      PB6: x
+    CH2:
+      PD13: x
+      PA12: x
+      PB7: x
+    CH3:
+      PD14: x
+      PA13: x
+      PB8: x
+    CH4:
+      PD15: x
+      PF6: x
+      PB9: x
+  TIM8:
+    CH1:
+      PA15: x
+      PB6: x
+      PC6: x
+    CH1N:
+      PA7: x
+      PC10: x
+      PB3: x
+    CH2:
+      PC7: x
+      PA14: x
+      PB8: x
+    CH2N:
+      PB0: x
+      PC11: x
+      PB4: x
+    CH3:
+      PC8: x
+      PB9: x
+    CH3N:
+      PB1: x
+      PC12: x
+      PB5: x
+    CH4:
+      PC9: x
+      PD1: x
+  TIM15:
+    CH1:
+      PF9: x
+      PA2: x
+      PB14: x
+    CH1N:
+      PA1: x
+      PB15: x
+    CH2:
+      PF10: x
+      PA3: x
+      PB15: x
+  TIM16:
+    CH1:
+      PA6: x
+      PA12: x
+      PB4: x
+      PB8: x
+      PE0: x
+    CH1N:
+      PA13: x
+      PB6: x
+  TIM17:
+    CH1:
+      PA7: x
+      PB5: x
+      PB9: x
+      PE1: x
+    CH1N:
+      PB7: x
+  TIM20:
+    CH1:
+      PE2: x
+    CH1N:
+      PE4: x
+    CH2:
+      PE3: x
+    CH2N:
+      PE5: x
+    CH3:
+      PF2: x
+    CH3N:
+      PE6: x
+    CH4:
+      PE1: x
