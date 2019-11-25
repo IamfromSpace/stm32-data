@@ -3,964 +3,967 @@
 301:
   TIM1:
     CH1:
-      PA8: x
-      PC0: x
+      PA8: AF6
+      PC0: AF2
     CH1N:
-      PA7: x
-      PA11: x
-      PB13: x
-      PC2: x
+      PA7: AF6
+      PA11: AF6
+      PB13: AF6
     CH2:
-      PA9: x
-      PC1: x
+      PA9: AF6
+      PC1: AF2
     CH2N:
-      PA12: x
-      PB0: x
-      PB14: x
+      PA12: AF6
+      PB0: AF6
+      PB14: AF6
     CH3:
-      PA10: x
-      PC2: x
+      PA10: AF6
+      PC2: AF2
     CH3N:
-      PB1: x
-      PB15: x
-      PF0: x
+      PB1: AF6
+      PB15: AF4
+      PF0: AF6
     CH4:
-      PA11: x
-      PC3: x
+      PA11: AF11
+      PC3: AF2
   TIM2:
     CH1:
-      PA0: x
-      PA5: x
-      PA15: x
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
     CH2:
-      PA1: x
-      PB3: x
+      PA1: AF1
+      PB3: AF1
     CH3:
-      PA2: x
-      PA9: x
-      PB10: x
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
     CH4:
-      PA3: x
-      PA10: x
-      PB11: x
+      PA3: AF1
+      PA10: AF10
+      PB11: AF1
   TIM15:
     CH1:
-      PA2: x
-      PB14: x
+      PA2: AF9
+      PB14: AF1
     CH1N:
-      PA1: x
-      PB15: x
+      PA1: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB15: x
+      PA3: AF9
+      PB15: AF1
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB4: x
-      PB8: x
+      PA6: AF1
+      PA12: AF1
+      PB4: AF1
+      PB8: AF1
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
     CH1N:
-      PB7: x
+      PB7: AF1
 318:
   TIM1:
     CH1:
-      PA8: x
+      PA8: AF6
     CH1N:
-      PA7: x
-      PA11: x
-      PB13: x
-      PC13: x
+      PA7: AF6
+      PA11: AF6
+      PB13: AF6
+      # The pin is in the manual but the AF isn't.
+      PC13: AF6
     CH2:
-      PA9: x
+      PA9: AF6
     CH2N:
-      PA12: x
-      PB0: x
-      PB14: x
+      PA12: AF6
+      PB0: AF6
+      PB14: AF6
     CH3:
-      PA10: x
+      PA10: AF6
     CH3N:
-      PB1: x
-      PB15: x
-      PF0: x
+      PB1: AF6
+      PB15: AF4
+      PF0: AF6
   TIM2:
     CH1:
-      PA0: x
-      PA5: x
-      PA15: x
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
     CH2:
-      PA1: x
-      PB3: x
+      PA1: AF1
+      PB3: AF1
     CH3:
-      PA2: x
-      PA9: x
-      PB10: x
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
     CH4:
-      PA3: x
-      PA10: x
-      PB11: x
+      PA3: AF1
+      PA10: AF10
+      PB11: AF1
   TIM15:
     CH1:
-      PA2: x
-      PB14: x
+      PA2: AF9
+      PB14: AF1
     CH1N:
-      PA1: x
-      PB15: x
+      PA1: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB15: x
+      PA3: AF9
+      PB15: AF1
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB4: x
-      PB8: x
+      PA6: AF1
+      PA12: AF1
+      PB4: AF1
+      PB8: AF1
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
-      PE1: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
     CH1N:
-      PB7: x
+      PB7: AF1
 302cb:
   TIM1:
     CH1:
-      PA8: x
-      PE9: x
+      PA8: AF6
+      PE9: AF2
     CH1N:
-      PA7: x
-      PA11: x
-      PB13: x
-      PE8: x
+      PA7: AF6
+      PA11: AF6
+      PB13: AF6
+      PE8: AF6
     CH2:
-      PA9: x
-      PE11: x
+      PA9: AF6
+      PE11: AF2
     CH2N:
-      PA12: x
-      PB0: x
-      PE10: x
+      PA12: AF6
+      PB0: AF6
+      PE10: AF2
     CH3:
-      PA10: x
-      PE13: x
+      PA10: AF6
+      PE13: AF2
     CH3N:
-      PB1: x
-      PB15: x
-      PE12: x
-      PF0: x
+      PB1: AF6
+      PB15: AF4
+      PE12: AF2
+      PF0: AF6
     CH4:
-      PA11: x
-      PE14: x
+      PA11: AF11
+      PE14: AF2
   TIM2:
     CH1:
-      PA0: x
-      PA5: x
-      PA15: x
-      PD3: x
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
+      PD3: AF2
     CH2:
-      PA1: x
-      PD3: x
-      PD4: x
+      PA1: AF1
+      PB3: AF1
+      PD4: AF2
     CH3:
-      PA2: x
-      PA9: x
-      PB10: x
-      PD7: x
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
+      PD7: AF2
     CH4:
-      PA3: x
-      PA10: x
-      PB11: x
-      PD6: x
+      PA3: AF1
+      PA10: AF10
+      PB11: AF1
+      PD6: AF2
   TIM3:
     CH1:
-      PA6: x
-      PB4: x
-      PC6: x
-      PE2: x
+      PA6: AF2
+      PB4: AF2
+      PC6: AF2
+      PE2: AF2
     CH2:
-      PA4: x
-      PA7: x
-      PB5: x
-      PE3: x
+      PA4: AF2
+      PA7: AF2
+      PB5: AF2
+      PE3: AF2
     CH3:
-      PB0: x
-      PC8: x
-      PE4: x
+      PB0: AF2
+      PC8: AF2
+      PE4: AF2
     CH4:
-      PC9: x
-      PB1: x
-      PB7: x
-      PE5: x
+      PB1: AF2
+      PB7: AF10
+      PC9: AF2
+      PE5: AF2
   TIM4:
     CH1:
-      PA11: x
-      PB6: x
-      PD12: x
+      PA11: AF10
+      PB6: AF2
+      PD12: AF2
     CH2:
-      PA12: x
-      PB7: x
-      PD13: x
+      PA12: AF10
+      PB7: AF2
+      PD13: AF2
     CH3:
-      PA13: x
-      PB8: x
-      PD14: x
+      PA13: AF10
+      PB8: AF2
+      PD14: AF2
     CH4:
-      PB9: x
-      PD15: x
-      PF6: x
+      PB9: AF2
+      PD15: AF2
+      PF6: AF2
   TIM15:
     CH1:
-      PA2: x
-      PB14: x
-      PF9: x
+      PA2: AF9
+      PB14: AF1
+      PF9: AF3
     CH1N:
-      PA1: x
-      PB15: x
+      PA1: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB15: x
-      PF10: x
+      PA3: AF9
+      PB15: AF2
+      PF10: AF3
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB4: x
-      PB8: x
-      PE0: x
+      PA6: AF1
+      PA12: AF1
+      PB4: AF1
+      PB8: AF1
+      PE0: AF4
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
-      PE1: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
+      PE1: AF4
     CH1N:
-      PB7: x
+      PB7: AF1
 303:
   TIM1:
     CH1:
-      PA8: x
-      PE9: x
+      PA8: AF6
+      PE9: AF2
     CH1N:
-      PA7: x
-      PA11: x
-      PC13: x
-      PE8: x
-      PE13: x
+      PA7: AF6
+      PA11: AF6
+      PB13: AF6
+      PE8: AF2
     CH2:
-      PA9: x
-      PE11: x
+      PA9: AF6
+      PE11: AF2
     CH2N:
-      PA12: x
-      PB0: x
-      PE10: x
-      PE14: x
+      PA12: AF6
+      PB0: AF6
+      PB14: AF6
+      PE10: AF2
     CH3:
-      PA10: x
-      PE13: x
+      PA10: AF6
+      PE13: AF2
     CH3N:
-      PB1: x
-      PE12: x
-      PE15: x
-      PF0: x
+      PB1: AF6
+      PB15: AF4
+      PE12: AF2
+      PF0: AF6
     CH4:
-      PA11: x
-      PE14: x
+      PA11: AF11
+      PE14: AF2
   TIM2:
     CH1:
-      PA0: x
-      PA5: x
-      PA15: x
-      PD3: x
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
+      PD3: AF2
     CH2:
-      PA1: x
-      PB3: x
+      PA1: AF1
+      PB3: AF1
     CH3:
-      PA2: x
-      PA9: x
-      PB10: x
-      PD7: x
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
+      PD7: AF2
     CH4:
-      PA3: x
-      PA10: x
-      PB11: x
-      PD6: x
+      PA3: AF1
+      PA10: AF10
+      PB11: AF1
+      PD6: AF2
   TIM3:
     CH1:
-      PA6: x
-      PB4: x
-      PC6: x
-      PE2: x
+      PA6: AF2
+      PB4: AF2
+      PC6: AF2
+      PE2: AF2
     CH2:
-      PA4: x
-      PA7: x
-      PB5: x
-      PC7: x
-      PE3: x
+      PA4: AF2
+      PA7: AF2
+      PB5: AF2
+      PC7: AF2
+      PE3: AF2
     CH3:
-      PB0: x
-      PC8: x
-      PE4: x
+      PB0: AF2
+      PC8: AF2
+      PE4: AF2
     CH4:
-      PC9: x
-      PE5: x
+      PC9: AF2
+      PE5: AF2
   TIM4:
     CH1:
-      PA11: x
-      PB6: x
-      PD12: x
+      PA11: AF10
+      PB6: AF2
+      PD12: AF2
     CH2:
-      PA12: x
-      PB7: x
+      PA12: AF10
+      PB7: AF2
     CH3:
-      PA13: x
-      PB8: x
+      PA13: AF10
+      PB8: AF2
     CH4:
-      PB9: x
-      PF6: x
+      PB9: AF2
+      PF6: AF2
   TIM8:
     CH1:
-      PA15: x
-      PB6: x
-      PC6: x
+      PA15: AF2
+      PB6: AF5
+      PC6: AF4
     CH1N:
-      PA7: x
-      PB3: x
-      PC10: x
+      PA7: AF4
+      PB3: AF4
+      PC10: AF4
     CH2:
-      PA14: x
-      PB8: x
-      PC7: x
+      PA14: AF5
+      PB8: AF10
+      PC7: AF4
     CH2N:
-      PB0: x
-      PB4: x
-      PC11: x
+      PB0: AF4
+      PB4: AF4
+      PC11: AF4
     CH3:
-      PB9: x
-      PC8: x
+      PB9: AF10
+      PC8: AF4
     CH3N:
-      PB1: x
-      PB5: x
-      PC12: x
+      PB1: AF4
+      PB5: AF3
+      PC12: AF4
     CH4:
-      PC9: x
-      PD1: x
+      PC9: AF4
+      PD1: AF4
   TIM15:
     CH1:
-      PA2: x
-      PB14: x
-      PF9: x
+      PA2: AF9
+      PB14: AF1
+      PF9: AF3
     CH1N:
-      PA1: x
-      PB15: x
+      PA1: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB15: x
-      PF10: x
+      PA3: AF9
+      PB15: AF2
+      PF10: AF3
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB4: x
-      PB8: x
-      PE0: x
+      PA6: AF1
+      PA12: AF1
+      PB4: AF1
+      PB8: AF1
+      PE0: AF4
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
-      PE1: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
+      PE1: AF4
     CH1N:
-      PB7: x
+      PB7: AF1
 373:
   TIM3:
     CH1:
-      PA6: x
-      PB4: x
-      PC6: x
+      PA6: AF2
+      PB4: AF2
+      PC6: AF2
     CH2:
-      PA4: x
-      PA7: x
-      PB5: x
-      PC7: x
+      PA4: AF2
+      PA7: AF2
+      PB5: AF2
+      PC7: AF2
     CH3:
-      PB0: x
-      PB6: x
+      PB0: AF2
+      PB6: AF10
     CH4:
-      PB1: x
-      PB7: x
+      PB1: AF2
+      PB7: AF10
   TIM4:
     CH1:
-      PA11: x
-      PB6: x
-      PD12: x
+      PA11: AF10
+      PB6: AF2
+      PD12: AF2
     CH2:
-      PA12: x
-      PB7: x
-      PD13: x
+      PA12: AF10
+      PB7: AF2
+      PD13: AF2
     CH3:
-      PA13: x
-      PB8: x
-      PD14: x
+      PA13: AF10
+      PB8: AF2
+      PD14: AF2
     CH4:
-      PB9: x
-      PD15: x
-      PF6: x
+      PB9: AF2
+      PD15: AF2
+      PF6: AF2
   TIM12:
     CH1:
-      PA4: x
-      PA14: x
-      PB14: x
+      PA4: AF10
+      PA14: AF10
+      PB14: AF10
     CH2:
-      PA5: x
-      PA15: x
-      PB15: x
+      PA5: AF10
+      PA15: AF10
+      PB15: AF10
   TIM13:
     CH1:
-      PA6: x
-      PA9: x
-      PB3: x
-      PC4: x
+      PA6: AF9
+      PA9: AF2
+      PB3: AF9
+      PC4: AF2
   TIM14:
     CH1:
-      PA5: x
-      PA7: x
-      PA10: x
+      PA5: AF9
+      PA7: AF9
+      PA10: AF9
   TIM15:
     CH1:
-      PA2: x
-      PB6: x
-      PB14: x
+      PA2: AF9
+      PB6: AF9
+      PB14: AF1
     CH1N:
-      PA1: x
-      PB4: x
-      PB15: x
+      PA1: AF9
+      PB4: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB7: x
-      PB15: x
+      PA3: AF9
+      PB7: AF9
+      PB15: AF1
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB4: x
-      PB8: x
+      PA6: AF1
+      PA12: AF1
+      PB4: AF1
+      PB8: AF1
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
     CH1N:
-      PB7: x
+      PB7: AF1
   TIM19:
     CH1:
-      PA0: x
-      PB6: x
+      PA0: AF11
+      PB6: AF11
     CH2:
-      PA1: x
-      PB7: x
+      PA1: AF11
+      PB7: AF11
     CH3:
-      PA2: x
-      PB8: x
+      PA2: AF11
+      PB8: AF11
     CH4:
-      PA3: x
-      PB9: x
+      PA3: AF11
+      PB9: AF11
 378:
   TIM3:
     CH1:
-      PA6: x
-      PB4: x
+      PA6: AF2
+      PB4: AF2
     CH2:
-      PA4: x
-      PA7: x
-      PB5: x
+      PA4: AF2
+      PA7: AF2
+      PB5: AF2
     CH3:
-      PB0: x
-      PB6: x
+      PB0: AF2
+      PB6: AF10
     CH4:
-      PB1: x
-      PB7: x
+      PB1: AF2
+      PB7: AF10
   TIM4:
     CH1:
-      PA11: x
-      PB6: x
-      PD12: x
+      PA11: AF10
+      PB6: AF2
+      PD12: AF2
     CH2:
-      PA12: x
-      PB7: x
-      PD13: x
+      PA12: AF10
+      PB7: AF2
+      PD13: AF2
     CH3:
-      PA13: x
-      PB8: x
-      PD14: x
+      PA13: AF10
+      PB8: AF2
+      PD14: AF2
     CH4:
-      PF6: x
-      PB9: x
-      PD15: x
+      PB9: AF2
+      PD15: AF2
+      PF6: AF2
   TIM12:
     CH1:
-      PA4: x
-      PA14: x
-      PB14: x
+      PA4: AF10
+      PA14: AF10
+      PB14: AF10
     CH2:
-      PA5: x
-      PA15: x
-      PB15: x
+      PA5: AF10
+      PA15: AF10
+      PB15: AF10
   TIM13:
     CH1:
-      PA6: x
-      PA9: x
-      PB3: x
-      PC4: x
+      PA6: AF9
+      PA9: AF2
+      PB3: AF9
+      PC4: AF2
   TIM14:
     CH1:
-      PA5: x
-      PA7: x
-      PA10: x
+      PA5: AF9
+      PA7: AF9
+      PA10: AF9
   TIM15:
     CH1:
-      PA2: x
-      PB6: x
-      PB14: x
+      PA2: AF9
+      PB6: AF9
+      PB14: AF1
     CH1N:
-      PA1: x
-      PB4: x
-      PB15: x
+      PA1: AF9
+      PB4: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB7: x
-      PB15: x
+      PA3: AF9
+      PB7: AF9
+      PB15: AF1
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB8: x
+      PA6: AF1
+      PA12: AF1
+      PB8: AF1
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
     CH1N:
-      PB7: x
+      PB7: AF1
   TIM19:
     CH1:
-      PA0: x
-      PB6: x
+      PA0: AF11
+      PB6: AF11
     CH2:
-      PA1: x
-      PB7: x
+      PA1: AF11
+      PB7: AF11
     CH3:
-      PB8: x
+      PA2: AF11
+      PB8: AF11
     CH4:
-      PA3: x
-      PB9: x
+      PA3: AF11
+      PB9: AF11
 334:
   TIM1:
     CH1:
-      PA8: x
+      PA8: AF6
+      PC0: AF2
     CH1N:
-      PA7: x
-      PA11: x
-      PB13: x
+      PA7: AF6
+      PA11: AF6
+      PB13: AF6
+      PC13: AF4
     CH2:
-      PA9: x
+      PA9: AF6
     CH2N:
-      PB0: x
-      PA12: x
-      PB14: x
+      PB0: AF6
+      PA12: AF6
+      PB14: AF6
     CH3:
-      PA10: x
+      PA10: AF6
+      PC2: AF2
     CH3N:
-      PB1: x
-      PB15: x
+      PB1: AF6
+      PB15: AF4
+      PF0: AF6
     CH4:
-      PA11: x
-      PC3: x
+      PA11: AF11
+      PC3: AF2
   TIM3:
     CH1:
-      PA6: x
-      PB4: x
-      PC6: x
+      PA6: AF2
+      PB4: AF2
+      PC6: AF2
     CH2:
-      PA4: x
-      PA7: x
-      PB5: x
-      PC7: x
+      PA4: AF2
+      PA7: AF2
+      PB5: AF2
+      PC7: AF2
     CH3:
-      PB0: x
-      PC8: x
+      PB0: AF2
+      PC8: AF2
     CH4:
-      PB1: x
-      PB7: x
-      PC9: x
+      PB1: AF2
+      PB7: AF10
+      PC9: AF2
   TIM15:
     CH1:
-      PA2: x
-      PB14: x
+      PA2: AF9
+      PB14: AF1
     CH1N:
-      PA1: x
-      PB15: x
+      PA1: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB15: x
+      PA3: AF9
+      PB15: AF1
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB4: x
-      PB8: x
+      PA6: AF1
+      PA12: AF1
+      PB4: AF1
+      PB8: AF1
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
     CH1N:
-      PB7: x
+      PB7: AF1
 328:
   TIM1:
     CH1:
-      PA8: x
+      PA8: AF6
     CH1N:
-      PA7: x
-      PA11: x
-      PB13: x
+      PA7: AF6
+      PA11: AF6
+      PB13: AF6
     CH2:
-      PA9: x
+      PA9: AF6
     CH2N:
-      PA12: x
-      PB0: x
-      PB14: x
+      PA12: AF6
+      PB0: AF6
+      PB14: AF6
     CH3:
-      PA10: x
+      PA10: AF6
     CH3N:
-      PB1: x
-      PB15: x
+      PB1: AF6
+      PB15: AF4
     CH4:
-      PA11: x
+      PA11: AF6
   TIM3:
     CH1:
-      PA6: x
-      PB4: x
+      PA6: AF2
+      PB4: AF2
     CH2:
-      PA4: x
-      PA7: x
-      PB5: x
+      PA4: AF2
+      PA7: AF2
+      PB5: AF2
     CH3:
-      PB0: x
+      PB0: AF2
     CH4:
-      PB1: x
-      PB7: x
+      PB1: AF2
+      PB7: AF10
   TIM15:
     CH1:
-      PA2: x
-      PB14: x
+      PA2: AF9
+      PB14: AF1
     CH1N:
-      PA1: x
-      PB15: x
+      PA1: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB15: x
+      PA3: AF9
+      PB15: AF1
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB4: x
-      PB8: x
+      PA6: AF1
+      PA12: AF1
+      PB4: AF1
+      PB8: AF1
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
     CH1N:
-      PB7: x
+      PB7: AF1
 358:
   TIM1:
     CH1:
-      PA8: x
-      PE9: x
+      PA8: AF6
+      PE9: AF6
     CH1N:
-      PA7: x
-      PA11: x
-      PB13: x
-      PE8: x
+      PA7: AF6
+      PA11: AF6
+      PB13: AF6
+      PE8: AF2
     CH2:
-      PA9: x
-      PE11: x
+      PA9: AF6
+      PE11: AF2
     CH2N:
-      PA12: x
-      PB0: x
-      PB14: x
-      PE10: x
+      PA12: AF6
+      PB0: AF6
+      PB14: AF6
+      PE10: AF2
     CH3:
-      PA10: x
-      PE13: x
+      PA10: AF6
+      PE13: AF2
     CH3N:
-      PB1: x
-      PB15: x
-      PE12: x
-      PF0: x
+      PB1: AF6
+      PB15: AF4
+      PE12: AF2
+      PF0: AF6
     CH4:
-      PA11: x
-      PE14: x
+      PA11: AF6
+      PE14: AF2
   TIM3:
     CH1:
-      PA6: x
-      PB4: x
-      PC6: x
-      PE2: x
+      PA6: AF2
+      PB4: AF2
+      PC6: AF2
+      PE2: AF2
     CH2:
-      PA4: x
-      PA7: x
-      PB5: x
-      PC7: x
-      PE3: x
+      PA4: AF2
+      PA7: AF2
+      PB5: AF2
+      PC7: AF2
+      PE3: AF2
     CH3:
-      PB0: x
-      PC8: x
-      PE4: x
+      PB0: AF2
+      PC8: AF2
+      PE4: AF2
     CH4:
-      PB1: x
-      PB7: x
-      PC9: x
-      PE5: x
+      PB1: AF2
+      PB7: AF10
+      PC9: AF2
+      PE5: AF2
   TIM4:
     CH1:
-      PA11: x
-      PB6: x
-      PD12: x
+      PA11: AF10
+      PB6: AF2
+      PD12: AF2
     CH2:
-      PA12: x
-      PB7: x
-      PD13: x
+      PA12: AF10
+      PB7: AF2
+      PD13: AF2
     CH3:
-      PA13: x
-      PB8: x
-      PD14: x
+      PA13: AF10
+      PB8: AF2
+      PD14: AF2
     CH4:
-      PB9: x
-      PD15: x
-      PF6: x
+      PB9: AF2
+      PD15: AF2
+      PF6: AF2
   TIM8:
     CH1:
-      PA15: x
-      PB6: x
-      PC6: x
+      PA15: AF2
+      PB6: AF5
+      PC6: AF4
     CH1N:
-      PA7: x
-      PB3: x
-      PC10: x
+      PA7: AF4
+      PB3: AF4
+      PC10: AF4
     CH2:
-      PA14: x
-      PB8: x
-      PC7: x
+      PA14: AF5
+      PB8: AF10
+      PC7: AF4
     CH2N:
-      PB0: x
-      PB4: x
-      PC11: x
+      PB0: AF4
+      PB4: AF4
+      PC11: AF4
     CH3:
-      PB9: x
-      PC8: x
+      PB9: AF10
+      PC8: AF4
     CH3N:
-      PB1: x
-      PB5: x
-      PC12: x
+      PB1: AF4
+      PB5: AF3
+      PC12: AF4
     CH4:
-      PC9: x
-      PD1: x
+      PC9: AF4
+      PD1: AF4
   TIM15:
     CH1:
-      PA2: x
-      PB14: x
-      PF9: x
+      PA2: AF9
+      PB14: AF1
+      PF9: AF3
     CH1N:
-      PA1: x
-      PB15: x
+      PA1: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB15: x
-      PF10: x
+      PA3: AF9
+      PB15: AF1
+      PF10: AF3
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB4: x
-      PB8: x
-      PE0: x
+      PA6: AF1
+      PA12: AF1
+      PB4: AF1
+      PB8: AF1
+      PE0: AF4
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
-      PE1: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
+      PE1: AF4
     CH1N:
-      PB7: x
+      PB7: AF1
 398:
   TIM1:
     CH1:
-      PA8: x
-      PE9: x
+      PA8: AF6
+      PE9: AF2
     CH1N:
-      PA7: x
-      PA11: x
-      PB13: x
-      PE8: x
+      PA7: AF6
+      PA11: AF6
+      PB13: AF6
+      PE8: AF2
     CH2:
-      PA9: x
-      PE11: x
+      PA9: AF6
+      PE11: AF2
     CH2N:
-      PA12: x
-      PB0: x
-      PB14: x
-      PE10: x
+      PA12: AF6
+      PB0: AF6
+      PB14: AF6
+      PE10: AF2
     CH3:
-      PA10: x
-      PC2: x
-      PE13: x
+      PA10: AF6
+      PC2: AF2
+      PE13: AF2
     CH3N:
-      PB1: x
-      PB15: x
-      PE12: x
+      PB1: AF6
+      PB15: AF4
+      PE12: AF2
     CH4:
       PA11: x
-      PC3: x
-      PE14: x
+      PC3: AF2
+      PE14: AF2
   TIM3:
     CH1:
-      PA6: x
-      PB4: x
-      PC6: x
-      PE2: x
+      PA6: AF2
+      PB4: AF2
+      PC6: AF2
+      PE2: AF2
     CH2:
-      PA4: x
-      PA7: x
-      PB5: x
-      PC7: x
-      PE3: x
+      PA4: AF2
+      PA7: AF2
+      PB5: AF2
+      PC7: AF2
+      PE3: AF2
     CH3:
-      PB0: x
-      PC8: x
-      PE4: x
+      PB0: AF2
+      PC8: AF2
+      PE4: AF2
     CH4:
-      PB1: x
-      PB7: x
-      PC9: x
-      PE5: x
+      PB1: AF2
+      PB7: AF10
+      PC9: AF2
+      PE5: AF2
   TIM4:
     CH1:
-      PB6: x
-      PA11: x
-      PD12: x
+      PA11: AF10
+      PB6: AF2
+      PD12: AF2
     CH2:
-      PA12: x
-      PB7: x
-      PD13: x
+      PA12: AF10
+      PB7: AF2
+      PD13: AF2
     CH3:
-      PA13: x
-      PB8: x
-      PD14: x
+      PA13: AF10
+      PB8: AF2
+      PD14: AF2
     CH4:
-      PB9: x
-      PD15: x
-      PF6: x
+      PB9: AF2
+      PD15: AF2
+      PF6: AF2
   TIM8:
     CH1:
-      PA15: x
-      PB6: x
-      PC6: x
+      PA15: AF2
+      PB6: AF5
+      PC6: AF4
     CH1N:
-      PA7: x
-      PB3: x
-      PC10: x
+      PA7: AF4
+      PB3: AF4
+      PC10: AF4
     CH2:
-      PA14: x
-      PB8: x
-      PC7: x
+      PA14: AF5
+      PB8: AF10
+      PC7: AF4
     CH2N:
-      PB0: x
-      PB4: x
-      PC11: x
+      PB0: AF4
+      PB4: AF4
+      PC11: AF4
     CH3:
-      PB9: x
-      PC8: x
+      PB9: AF10
+      PC8: AF4
     CH3N:
-      PB1: x
-      PB5: x
-      PC12: x
+      PB1: AF4
+      PB5: AF3
+      PC12: AF4
     CH4:
-      PC9: x
-      PD1: x
+      PC9: AF4
+      PD1: AF4
   TIM15:
     CH1:
-      PA2: x
-      PB14: x
-      PF9: x
+      PA2: AF9
+      PB14: AF1
+      PF9: AF3
     CH1N:
-      PA1: x
-      PB15: x
+      PA1: AF9
+      PB15: AF2
     CH2:
-      PA3: x
-      PB15: x
-      PF10: x
+      PA3: AF9
+      PB15: AF1
+      PF10: AF3
   TIM16:
     CH1:
-      PA6: x
-      PA12: x
-      PB4: x
-      PB8: x
-      PE0: x
+      PA6: AF1
+      PA12: AF1
+      PB4: AF1
+      PB8: AF1
+      PE0: AF4
     CH1N:
-      PA13: x
-      PB6: x
+      PA13: AF1
+      PB6: AF1
   TIM17:
     CH1:
-      PA7: x
-      PB5: x
-      PB9: x
-      PE1: x
+      PA7: AF1
+      PB5: AF10
+      PB9: AF1
+      PE1: AF4
     CH1N:
-      PB7: x
+      PB7: AF1
   TIM20:
     CH1:
-      PE2: x
+      PE2: AF6
     CH1N:
-      PE4: x
+      PE4: AF6
     CH2:
-      PE3: x
+      PE3: AF6
     CH2N:
-      PE5: x
+      PE5: AF6
     CH3:
-      PF2: x
+      PF2: AF2
     CH3N:
-      PE6: x
+      PE6: AF6
     CH4:
-      PE1: x
+      PE1: AF6
