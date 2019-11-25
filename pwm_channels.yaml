@@ -1,3 +1,5 @@
+# TODO: I only searched for "TIMx_CHy," so I didn't find any items
+# that were at the end of the alternate function list
 301:
   TIM1:
     CH1:
