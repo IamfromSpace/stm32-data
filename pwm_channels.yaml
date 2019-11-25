@@ -1,5 +1,3 @@
-# TODO: I only searched for "TIMx_CHy," so I didn't find any items
-# that were at the end of the alternate function list
 301:
   TIM1:
     CH1:
@@ -9,6 +7,7 @@
       PA7: AF6
       PA11: AF6
       PB13: AF6
+      PC13: AF4
     CH2:
       PA9: AF6
       PC1: AF2
@@ -141,6 +140,7 @@
       PA7: AF6
       PA11: AF6
       PB13: AF6
+      PC13: AF4
       PE8: AF6
     CH2:
       PA9: AF6
@@ -256,6 +256,7 @@
       PA7: AF6
       PA11: AF6
       PB13: AF6
+      PC13: AF4
       PE8: AF2
     CH2:
       PA9: AF6
@@ -386,6 +387,21 @@
     CH1N:
       PB7: AF1
 373:
+  TIM2:
+    CH1:
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
+    CH2:
+      PA1: AF1
+      PB3: AF1
+    CH3:
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
+    CH4:
+      PA3: AF1
+      PA10: AF10
   TIM3:
     CH1:
       PA6: AF2
@@ -394,14 +410,17 @@
     CH2:
       PA4: AF2
       PA7: AF2
+      PB0: AF10
       PB5: AF2
       PC7: AF2
     CH3:
       PB0: AF2
       PB6: AF10
+      PC8: AF2
     CH4:
       PB1: AF2
       PB7: AF10
+      PC9: AF2
   TIM4:
     CH1:
       PA11: AF10
@@ -419,6 +438,23 @@
       PB9: AF2
       PD15: AF2
       PF6: AF2
+  TIM5:
+    CH1:
+      PA0: AF2
+      PA8: AF2
+      PC0: AF2
+    CH2:
+      PA1: AF2
+      PA11: AF2
+      PC1: AF2
+    CH3:
+      PA2: AF2
+      PA12: AF2
+      PC2: AF2
+    CH4:
+      PA3: AF2
+      PA13: AF2
+      PC3: AF2
   TIM12:
     CH1:
       PA4: AF10
@@ -439,6 +475,7 @@
       PA5: AF9
       PA7: AF9
       PA10: AF9
+      PF9: AF2
   TIM15:
     CH1:
       PA2: AF9
@@ -472,30 +509,53 @@
     CH1:
       PA0: AF11
       PB6: AF11
+      PC10: AF2
     CH2:
       PA1: AF11
       PB7: AF11
+      PC11: AF2
     CH3:
       PA2: AF11
       PB8: AF11
+      PC12: AF2
     CH4:
       PA3: AF11
       PB9: AF11
+      PD0: AF2
 378:
+  TIM2:
+    CH1:
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
+    CH2:
+      PA1: AF1
+      PB3: AF1
+    CH3:
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
+    CH4:
+      PA3: AF1
+      PA10: AF10
   TIM3:
     CH1:
       PA6: AF2
       PB4: AF2
+      PC6: AF2
     CH2:
       PA4: AF2
       PA7: AF2
       PB5: AF2
+      PC7: AF2
     CH3:
       PB0: AF2
       PB6: AF10
+      PC8: AF2
     CH4:
       PB1: AF2
       PB7: AF10
+      PC9: AF2
   TIM4:
     CH1:
       PA11: AF10
@@ -513,6 +573,23 @@
       PB9: AF2
       PD15: AF2
       PF6: AF2
+  TIM5:
+    CH1:
+      PA0: AF2
+      PA8: AF2
+      PC0: AF2
+    CH2:
+      PA1: AF2
+      PA11: AF2
+      PC1: AF2
+    CH3:
+      PA2: AF2
+      PA12: AF2
+      PC2: AF2
+    CH4:
+      PA3: AF2
+      PA13: AF2
+      PC3: AF2
   TIM12:
     CH1:
       PA4: AF10
@@ -533,6 +610,7 @@
       PA5: AF9
       PA7: AF9
       PA10: AF9
+      PF9: AF2
   TIM15:
     CH1:
       PA2: AF9
@@ -565,15 +643,19 @@
     CH1:
       PA0: AF11
       PB6: AF11
+      PC10: AF2
     CH2:
       PA1: AF11
       PB7: AF11
+      PC11: AF2
     CH3:
       PA2: AF11
       PB8: AF11
+      PC12: AF2
     CH4:
       PA3: AF11
       PB9: AF11
+      PD0: AF2
 334:
   TIM1:
     CH1:
@@ -586,6 +668,8 @@
       PC13: AF4
     CH2:
       PA9: AF6
+      # This one is missing in the AF table
+      # PC1: x
     CH2N:
       PB0: AF6
       PA12: AF6
@@ -600,6 +684,22 @@
     CH4:
       PA11: AF11
       PC3: AF2
+  TIM2:
+    CH1:
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
+    CH2:
+      PA1: AF1
+      PB3: AF1
+    CH3:
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
+    CH4:
+      PA3: AF1
+      PA10: AF10
+      PB11: AF1
   TIM3:
     CH1:
       PA6: AF2
@@ -651,6 +751,7 @@
       PA7: AF6
       PA11: AF6
       PB13: AF6
+      PC13: AF4
     CH2:
       PA9: AF6
     CH2N:
@@ -662,8 +763,25 @@
     CH3N:
       PB1: AF6
       PB15: AF4
+      PF0: AF6
     CH4:
       PA11: AF6
+  TIM2:
+    CH1:
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
+    CH2:
+      PA1: AF1
+      PB3: AF1
+    CH3:
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
+    CH4:
+      PA3: AF1
+      PA10: AF10
+      PB11: AF1
   TIM3:
     CH1:
       PA6: AF2
@@ -712,6 +830,7 @@
       PA7: AF6
       PA11: AF6
       PB13: AF6
+      PC13: AF4
       PE8: AF2
     CH2:
       PA9: AF6
@@ -732,6 +851,26 @@
     CH4:
       PA11: AF6
       PE14: AF2
+  TIM2:
+    CH1:
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
+      PD3: AF2
+    CH2:
+      PA1: AF1
+      PB3: AF1
+      PD4: AF2
+    CH3:
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
+      PD7: AF2
+    CH4:
+      PA3: AF1
+      PA10: AF10
+      PB11: AF1
+      PD6: AF2
   TIM3:
     CH1:
       PA6: AF2
@@ -831,14 +970,17 @@
   TIM1:
     CH1:
       PA8: AF6
+      PC0: AF2
       PE9: AF2
     CH1N:
       PA7: AF6
       PA11: AF6
       PB13: AF6
+      PC13: AF4
       PE8: AF2
     CH2:
       PA9: AF6
+      PC1: AF2
       PE11: AF2
     CH2N:
       PA12: AF6
@@ -853,10 +995,31 @@
       PB1: AF6
       PB15: AF4
       PE12: AF2
+      PF0: AF6
     CH4:
-      PA11: x
+      PA11: AF6
       PC3: AF2
       PE14: AF2
+  TIM2:
+    CH1:
+      PA0: AF1
+      PA5: AF1
+      PA15: AF1
+      PD3: AF2
+    CH2:
+      PA1: AF1
+      PB3: AF1
+      PD4: AF2
+    CH3:
+      PA2: AF1
+      PA9: AF10
+      PB10: AF1
+      PD7: AF2
+    CH4:
+      PA3: AF1
+      PA10: AF10
+      PB11: AF1
+      PD6: AF2
   TIM3:
     CH1:
       PA6: AF2
